@@ -1,0 +1,117 @@
+p{
+
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+
+span{
+
+    font-family: Arial;
+
+}
+
+
+.new {
+
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block; /* DISPLAY */
+
+}
+
+.product{
+
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+
+}
+
+.super{
+
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.price{
+
+    font-size: 20px;
+    font-weight: normal;
+    text-align: center;
+
+}
+
+.container{
+    text-align: center;
+}
+
+.buy{
+
+    background-color: rgb(59, 109, 218);
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 100px;
+
+}
+
+.currency{
+
+    font-size: 25px;
+    color: grey;
+
+}
+
+.today{
+
+    font-size: 25px;
+    color: green;
+
+}
+
+.red{
+
+    font-size: 25px;
+    color: red;
+
+}
+
+.value{
+
+    font-size: 50px;
+
+}
+
+.free{
+
+    font-weight: bold;
+
+}
+
+.refer{
+
+    color: grey;
+
+}
+
+.comment{
+
+    margin-bottom: 30px;
+
+}
+
+.user{
+
+    color: rgb(28, 94, 194);
+
+}

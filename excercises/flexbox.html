@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <title>Flexbox</title>
+        <meta charset="utf-8">
+        <link href="flexbox.css" rel="stylesheet">
+
+        <body>
+
+            <div style="display: flex;
+                flex-direction: row;">
+
+                <div style="background-color: lightblue;">div1xdddd</div>
+                <div style="background-color: lightpink;">div2</div>
+
+            </div>
+
+            <div style="display: flex;
+                flex-direction: row;
+                margin-top: 40px;">
+
+                <div style="background-color: lightblue; width: 100px;">100px</div>
+                <div style="background-color: lightpink; flex:1">flex1</div>
+
+            </div>
+
+            
+            <div style="display: flex;
+            flex-direction: row;
+            margin-top: 40px;">
+
+                <div style="background-color: lightpink; width: 100px;">10px</div>
+                <div style="background-color: lightblue; flex: 2;">flex2</div>
+                <div style="background-color: lightpink; flex:1">flex1</div>
+
+            </div>
+
+            <div style="display: flex;
+                flex-direction: row;
+                justify-content: center;
+                height: 70px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: grey;
+                margin-top: 40px;">
+
+                <div style="background-color: lightpink; width: 100px;">100px</div>
+                <div style="background-color: lightblue; width: 100px;">100px</div>
+                <div style="background-color: lightpink; width: 100px;">100px</div>
+
+            </div>
+
+            <div style="display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                height: 70px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: grey;
+                margin-top: 40px;">
+
+                <div style="background-color: lightpink; width: 100px;">100px</div>
+                <div style="background-color: lightblue; width: 100px;">100px</div>
+                <div style="background-color: lightpink; width: 100px;">100px</div>
+
+            </div>
+
+            
+            <div style="display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                height: 70px;
+                border-width: 1px;
+                border-style: solid;
+                border-color: grey;
+                margin-top: 40px;
+                margin-bottom: 100px;">
+
+                <div style="background-color: lightpink; width: 100px;">100px</div>
+                <div style="background-color: lightblue; width: 100px;">100px</div>
+                <div style="background-color: lightpink; width: 100px;">100px</div>
+
+            </div>
+
+            <div style="display: flex; flex-direction: row; margin-bottom: 100px;">
+                
+                <div style="background-color: lightblue; width: 200px;">200px</div>
+                <div style="background-color: lightpink; width: 75px;">75</div>
+            
+            
+            </div>
+
+            <div style="display: flex; flex-direction: row; margin-bottom: 100px;">
+                
+                <div style="background-color: lightblue; width: 50px;">50px</div>
+                <div style="background-color: lightpink; flex: 1;">75</div>
+                <div style="background-color: lightblue; width: 75px;">75px</div>
+            
+            
+            </div>
+
+            <div style="display: flex; flex-direction: row; margin-bottom: 100px; justify-content: space-between;">
+                
+                <div style="background-color: lightblue; width: 50px;">50px</div>
+                <div style="background-color: lightpink; width: 75px;">75</div>
+                <div style="background-color: lightblue; width: 75px;">75px</div>
+                <div style="background-color: lightpink; width: 75px;">75</div>
+            
+            
+            </div>
+
+            <div style="display: flex; flex-direction: row; border: solid;
+                 border-width: 1px; border-color: grey;  justify-content: space-between;
+                 height: 50px; align-items: center;
+                 margin-bottom: 100px;">
+                
+                <div style="background-color: lightblue; width: 50px; justify-content: start;">50px</div>
+                <div style="background-color: lightpink; width: 75px; justify-content: end;">75</div></div>
+            
+            </div>
+
+            <div class="container">
+                <div class="flexbox">
+                  <div>Home</div>
+                  <div class="notifications">14</div>
+                </div>
+                <div class="flexbox">
+                  <div>Notifications</div>
+                  <div class="notifications">3</div>
+                </div>
+                <div class="flexbox">
+                  <div>Messages</div>
+                  <div class="notifications">5</div>
+                </div>
+            </div>
+
+            <div class="search-container">
+
+                <div class="home">
+                    <p class="home-text">Home</p>
+                </div>
+                <div class="box">
+                    <input type="text" class="search-box" placeholder="Search">
+                </div>
+                <div class="download">
+                    <button class="download-button">Download</button>
+                </div>
+
+
+            </div>
+
+            <html>
+                <head>
+                  <link rel="stylesheet" href="12g.css">
+                </head>
+                <body>
+                  <div class="row">
+                    <img class="profile-picture" src="1.jpg">
+                    <div class="info">
+                      <p class="name">oliver</p>
+                      <p class="handle">the cat</p>
+                      <p class="category">Popular</p>
+                    </div>
+                    <button class="follow-button">Follow</button>
+                  </div>
+              
+                  <div class="row">
+                    <img class="profile-picture" src="2.jpg">
+                    <div class="info">
+                      <p class="name">Mimi</p>
+                      <p class="handle">Sleepy Cat</p>
+                      <p class="category">Popular</p>
+                    </div>
+                    <button class="follow-button">Follow</button>
+                  </div>
+              
+                  <div class="row">
+                    <img class="profile-picture" src="3.jpg">
+                    <div class="info">
+                      <p class="name">Rex</p>
+                      <p class="handle">Happy Bulldog</p>
+                      <p class="category">Popular</p>
+                    </div>
+                    <button class="follow-button">Follow</button>
+                  </div>
+                </body>
+              </html>
+
+        </body>
+
+    </head>
+
+</html>

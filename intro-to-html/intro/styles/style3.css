@@ -1,0 +1,74 @@
+
+p{
+
+    font-family: Roboto;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.talking{
+
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    width: 300px;
+    line-height: 23px;
+    margin-bottom: 5px;
+}
+
+.entits {
+
+    font-size: 13px;
+    color: grey;
+    margin-bottom: 20px;
+
+}
+
+.name {
+
+    font-size: 13px;
+    color: grey;
+    margin-bottom: 15px;
+    
+}
+
+.lorem{
+
+    font-size: 13px;
+    color: grey;
+    width: 300px;
+    line-height: 23px;
+    margin-bottom: 100px;
+
+}
+
+.shop{
+
+    font-size: 14px;
+    padding: 10px;
+    background-color: rgb(66, 49, 29);
+    color: white;
+    text-align: center;
+
+}
+
+.links{
+
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+.links:hover{
+
+    text-decoration: underline;
+
+}
+
+.under:hover{
+
+    text-decoration: underline;
+
+}

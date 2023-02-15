@@ -1,0 +1,86 @@
+.cringe{
+
+    background-color: rgb(165, 24, 24);
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: opacity 0.2s;
+
+}
+
+.cringe:hover {
+
+    opacity: 0.8;
+
+}
+
+.cringe:active{
+
+    opacity: 0.5;
+
+}
+
+.ni{
+
+
+    background-color: white;
+    border-color: rgb(24, 65, 139);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    outline: 1px;
+    color: blue;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+    transition: background-color 0.7s, 
+        color 0.7s;
+
+}
+
+.ni:hover{
+
+    background-color: rgb(24, 65, 139);
+    color: white;
+
+}
+
+.ni:active{
+
+    opacity: 0.8;
+
+}
+
+.boobs {
+
+    background-color: rgb(50, 115, 190);
+    color: white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: Verdana;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-weight: bold;
+    font-size: 13px;
+    margin-left: 10px;
+    transition: box-shadow 0.8;
+
+}
+
+.boobs:hover{
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+
+}

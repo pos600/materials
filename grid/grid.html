@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Grid Practice</title>
+        <meta charset="utf-8">
+        <link href="gridstyles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+        <body>
+
+            <div style="display: grid;
+                grid-template-columns:
+                100px 100px;">
+
+                <div style="background-color: lightblue;">div1</div>
+
+                <div style="background-color: lightpink">div2<p>text</p></div>
+
+            </div>
+
+            <div style="display: grid; 
+                grid-template-columns: 100px 100px 200px;
+                margin-top: 30px;">
+
+                <div style="background-color: lightblue;">div1</div>
+                <div style="background-color: lightpink">div2<p>text</p></div>
+                <div style="background-color: lightgoldenrodyellow;">div3</div>
+
+            </div>
+
+            <div style="display: grid; 
+                grid-template-columns: 100px 1fr;
+                margin-top: 30px;
+                column-gap: 10px;">
+
+                <div style="background-color: lightblue;">div1</div>
+                <div style="background-color: lightpink">div2</div>
+    
+            </div>
+            
+            <div style="display: grid; 
+                grid-template-columns: 100px 1fr 2fr;
+                margin-top: 30px;">
+
+                <div style="background-color: lightblue;">100</div>
+                <div style="background-color: lightpink">1fr</div>
+                <div style="background-color: lightgreen">2fr</div>
+    
+            </div>
+
+        <div style="display: grid; 
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-top: 30px;
+            column-gap: 20px;
+            row-gap: 20px;">
+
+            <div style="background-color: lightblue; height:200px">1fr</div>
+            <div style="background-color: lightpink; height:200px" >1fr</div>
+            <div style="background-color: lightgreen; height:200px">1fr</div>
+            <div style="background-color: lightpink; height:200px" >1fr</div>
+            <div style="background-color: lightgreen; height:200px">1fr</div>
+            <div style="background-color: lightblue; height:200px">1fr</div>
+
+        </div>
+
+        <div style="display: grid;
+            grid-template-columns: 50px 1fr 75px;
+            row-gap: 50px;">
+            
+            <div style="background-color: aqua;">col1</div>
+            <div style="background-color: blanchedalmond;">1fr</div>
+            <div style="background-color: brown;">75</div>
+
+        </div>
+
+        <div style="display: grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            row-gap: 20px;
+            column-gap: 20px; margin-top: 50px;">
+            
+            <div style="background-color: red;">xd1</div>
+            <div style="background-color: red;">xd2</div>
+            <div style="background-color: red;">xd3</div>
+            <div style="background-color: red;">xd4</div>
+            <div style="background-color: red;">xd5</div>
+            <div style="background-color: red;">xd6</div>
+            <div style="background-color: red;">xd7</div>
+            <div style="background-color: red;">xd8</div>
+        
+        </div>
+
+        </body>
+
+    </head>
+
+</html>

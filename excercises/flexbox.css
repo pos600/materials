@@ -1,0 +1,161 @@
+div {
+    font-family: Arial;
+  }
+
+img{
+    height: 80px;
+    border-radius: 100px;
+  }
+
+.flexbox{
+
+    flex-direction: row;
+    display: flex;
+
+}
+  
+  .container {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(200, 200, 200);
+    width: 300px;
+    border-radius: 6px;
+    margin-bottom: 100px;
+  }
+  
+  .flexbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  
+  .notifications {
+    background-color: rgb(49, 109, 245);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+  } */
+
+
+
+div{
+
+    font-family: Arial, Roboto;
+
+  }
+
+    .search-container{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        font-size: 20px;
+        background-color: rgb(106, 66, 170);
+
+        margin-bottom: 100px;
+
+    }
+
+    .home-text{
+
+        margin-left: 20px;
+        color: white;
+
+    }
+
+    .search-box{
+
+        flex: 1;
+        margin-left: 50px;
+        margin-right: 50px;
+        width: 450px;
+        height: 40px;
+        font-size: 20px;
+        padding-left: 20px;
+        border-radius: 20px;
+        border: none;
+
+    }
+
+    .download-button{
+
+        margin-right: 10px;
+        background-color: rgb(106, 66, 170);
+        border-color: white;
+        color: white;
+        height: 50px;
+        padding-top: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        font-size: 20px;
+        
+    }
+
+    p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+      
+      .row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      
+      .profile-picture {
+        height: 50px;
+        width: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+        margin-right: 15px;
+      }
+      
+      .info {
+        width: 200px;
+      }
+      
+      .name {
+        font-weight: bold;
+        margin-bottom: 3px;
+      }
+      
+      .handle {
+        color: rgb(150, 150, 150);
+        margin-bottom: 5px;
+      }
+      
+      .category {
+        color: rgb(150, 150, 150);
+        font-size: 14px;
+      }
+      
+      .follow-button {
+        background-color: rgb(29, 155, 240);
+        color: white;
+        border: none;
+        font-size: 16px;
+        font-weight: bold;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 4px;
+        cursor: pointer;
+      }    
+
+      
